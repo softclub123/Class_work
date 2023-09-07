@@ -1,0 +1,339 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.all .navbar {
+  border-bottom: 1px solid lightgray;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: space-around;
+  display: flex;
+}
+.all .navbar .logo {
+  width: 20%;
+}
+.all .navbar .text {
+  align-items: center;
+  width: 30%;
+  justify-content: space-between;
+  display: flex;
+}
+.all .navbar .text h1 {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  color: #7f7e83;
+}
+.all .navbar .text button {
+  color: #57b18a;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  background-color: #fff;
+  padding: 10px 20px;
+}
+.all ul {
+  padding-top: 10px;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: 85%;
+  border-bottom: 1px solid lightgray;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: auto;
+}
+.all ul .li {
+  padding-bottom: 10px;
+  border-bottom: 4px solid rgb(3, 116, 3);
+  border-radius: 5px;
+}
+.all ul li {
+  color: #7f7e83;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.all .sec1 {
+  justify-content: space-evenly;
+  display: flex;
+}
+.all .sec1 .left {
+  padding: 50px;
+  width: 45%;
+}
+.all .sec1 .left h1 {
+  font-size: 70px;
+  font-weight: 500;
+  color: #3f3e42;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.all .sec1 .left p {
+  width: 90%;
+  padding-top: 40px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #3f3e42;
+}
+.all .sec1 .right {
+  width: 45%;
+}
+.all .level1 {
+  padding-bottom: 100px;
+  padding-top: 100px;
+  background-color: #f9f8fe;
+}
+.all .level1 .img1 {
+  height: 85vh;
+  background-color: #e6e6fc;
+  width: 80%;
+  padding: 50px;
+  border-radius: 20px;
+  margin: auto;
+}
+.all .level1 .img1 .dw {
+  padding-left: 0;
+  position: relative;
+  top: -70px;
+}
+.all .level1 .img1 .flex {
+  display: flex;
+}
+.all .level1 .img1 img {
+  padding-left: 100px;
+}
+.all .level1 .img1 h1 {
+  width: 50%;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+.all .level1 .flex1 {
+  width: 88%;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.all .level1 .flex1 .first {
+  padding: 20px;
+  width: 45%;
+  border-radius: 20px;
+  background-color: #ffe3d8;
+  padding-bottom: 70px;
+}
+.all .level1 .flex1 .first h1 {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 32px;
+  font-weight: 500;
+}
+.all .level1 .flex1 .first img {
+  position: relative;
+  left: 80px;
+  top: 50px;
+}
+.all .level1 .flex1 .second {
+  background-color: #ddefe8;
+}
+.all .level1 .sec2 {
+  background-color: #fff2cb;
+  width: 82%;
+  height: 73vh;
+  margin: auto;
+  margin-top: 50px;
+  padding: 50px;
+  border-radius: 20px;
+}
+.all .level1 .sec2 h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: 500;
+  text-align: center;
+}
+.all .level1 .sec2 .hand {
+  position: relative;
+  top: 55px;
+  left: -50px;
+}
+.all .level1 .sec2 form {
+  border-radius: 20px;
+  width: 80%;
+  padding: 20px;
+  top: -300px;
+  width: 20%;
+  position: relative;
+  background-color: #fff;
+  left: 400px;
+}
+.all .level1 .sec2 form h1 {
+  font-weight: 500;
+  font-family: sans-serif;
+  font-size: 22px;
+  line-height: 25px;
+  text-align: center;
+}
+.all .level1 .sec2 form input {
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 5px gray;
+  margin-top: 10px;
+  padding: 10px 20px;
+  width: 80%;
+}
+.all .level1 .sec2 form button {
+  font-weight: 600;
+  margin-top: 15px;
+  color: white;
+  background-color: #468f6f;
+  border: none;
+  font-size: 15px;
+  width: 100%;
+  border-radius: 6px;
+  padding: 15px 0px;
+}
+.all .level1 .sec2 form .b {
+  background-color: transparent;
+  box-shadow: 0px 0px 5px gray;
+  color: #468f6f;
+}
+.all .level1 .sec2 .phone {
+  position: relative;
+  bottom: 630px;
+  left: 822px;
+}
+.all .level1 .flex2 .first {
+  background-color: #e6e6fc;
+}
+.all .level1 .flex2 .second {
+  background-color: #ffe3d8;
+}
+.all .level1 .sec3 {
+  height: 80vh;
+  background-color: #ddefe8;
+  width: 81%;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 50px;
+}
+.all .level1 .sec3 h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  width: 54%;
+}
+.all .level1 .sec3 .hand2 {
+  position: relative;
+  top: 13px;
+}
+.all .level1 .sec3 .colend {
+  position: relative;
+  left: 150px;
+  top: -80px;
+}
+.all .level1 .flex3 .first {
+  background-color: #fff2cb;
+}
+.all .level1 .flex3 .second {
+  height: 80vh;
+  background-color: #e6e6fc;
+}
+.all .level1 .flex3 .second img {
+  left: 150px;
+  top: 130px;
+}
+.all .footer {
+  display: flex;
+  background-color: #eef7f3;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 50px;
+}
+.all .footer .text {
+  width: 45%;
+}
+.all .footer .text h1 {
+  margin-top: 50px;
+  font-size: 44px;
+}
+.all .footer .text p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  width: 80%;
+  margin-top: 20px;
+}
+.all .footer .img img {
+  position: relative;
+  left: 120px;
+  top: 30px;
+}
+.all .footer2 {
+  border-bottom: 1px solid gray;
+  padding-bottom: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.all .footer2 .block {
+  padding-left: 20px;
+  padding-top: 50px;
+  width: 22%;
+}
+.all .footer2 .block p {
+  padding-top: 15px;
+  font-size: 18px;
+}
+.all .footer2 .block1 p {
+  padding-top: 15px;
+  font-size: 18px;
+}
+.all .footer2 .block1 button {
+  padding: 10px 30px;
+  margin-top: 20px;
+  border: none;
+  color: #57b18a;
+  font-weight: 600;
+  font-size: 18px;
+  box-shadow: 0px 0px 5px gray;
+  border-radius: 5px;
+}
+.all .footer3 {
+  padding-top: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  padding-bottom: 20px;
+  border-bottom: 1px solid gray;
+  justify-content: space-around;
+}
+.all .footer3 div {
+  width: 45%;
+}
+.all .footer3 p {
+  padding-top: 20px;
+  color: #3f3e42;
+  font-size: 18px;
+  line-height: 28px;
+}
+.all .footer4 {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.all .footer4 P {
+  font-size: 16px;
+  font-weight: 400;
+  color: #7F7E83;
+}/*# sourceMappingURL=main.css.map */
